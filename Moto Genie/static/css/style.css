@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    top: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: lightgray;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+}
+
+body {
+    background-color: rgb(1 18 36) !important;
+}
+
+.about img {
+    width: 100%;
+}
+
+.nav ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 0px 15px;
+    font-family: "Lexend", sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+}
+
+.login {
+    margin-right: 30px;
+}
+
+.login button {
+    background-color: #58abd4;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+.login button:hover {
+    background-color: white;
+    color: black;
+}
+
+.logo button {
+    background-color: transparent;
+    border: transparent;
+    font-size: 25px;
+}
+
+.logo button:hover {
+    color: #58abd4;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+h2 {
+    text-align: center;
+    align-items: center;
+    font-size: 40px !important;
+    color: white !important;
+    font-family: "Raleway", serif;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form select,
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.response,
+.error {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff3cd;
+    border-radius: 4px;
+}
+
+.response p,
+.error p {
+    margin: 0;
+}
+
+.about p {
+    color: white;
+    font-family: "lexend", serif;
+}
+
+#about {
+    margin-top: 30px;
+}
+
+.about p {
+    font-size: 20px;
+}
+
+.about img {
+    border-radius: 20px;
+}
+
+#service {
+    margin-top: 30px;
+}
+
+.card {
+    border: none;
+}
+
+.card h5 {
+    text-align: center;
+    font-size: 35px;
+    padding: 10px 0px;
+}
+
+.card img {
+    padding: 0px 30px 10px 30px;
+    border-radius: 20px;
+}
+
+.card-body p {
+    padding-left: 18px;
+}
+
+.card-body button {
+    margin-left: 40%;
+    padding: 5px 20px;
+    border: none;
+    color: white;
+    background-color: #58abd4;
+    border-radius: 30px;
+}
+
+#work {
+    margin-top: 30px;
+}
+
+.img img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot-bar ul {
+    display: flex;
+    align-items: center;
+}
+
+.foot-bar ul li {
+    padding-top: 18px;
+    align-items: center;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.foot-bar ul li a {
+    color: black;
+    align-items: center;
+    padding: 0px 30px;
+    font-family: "Lexend", sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+}
+
+.foot-bar a {
+    text-decoration: none;
+}
+
+.foot-bar ul li a:hover {
+    color: #58abd4;
+}
+
+.foot-logo a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.ourservice {
+    margin-top: 30px;
+}
+
+.ourservice img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+#ourservice {
+    margin-top: 30px;
+}
+
+.ourservice button {
+    background-color: #58abd4;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin-left: 40%;
+}
+
+.ourservice button a {
+    color: white;
+    text-decoration: none;
+}
+
+.ourservice button:hover {
+    background-color: white;
+}
+
+.ourservice button a:hover {
+    color: black;
+}
+
+.service button a {
+    color: white;
+    text-decoration: none;
+}
+
+.ourservice p {
+    color: white;
+}
